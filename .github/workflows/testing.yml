@@ -1,4 +1,4 @@
-name: .NET
+name: automatic version check
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: testing my own action
-      uses: ruben12321/Skyline-DataMiner-Deploy-Action@0b0c6e5ae643fdf961fa06c606f3a2cd6bc70855
+      uses: ruben12321/Skyline-DataMiner-Deploy-Action@53654b16abb8e8ae9a935a2f886dc5625b4765f3
       with:  
         api-key: 'testing'
         solution-path: './Example/Script.sln'
