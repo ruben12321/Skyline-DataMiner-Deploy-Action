@@ -36,7 +36,7 @@ outputs:
   
 runs:
   using: 'docker'
-  image: ${{ github.action_ref }}
+  image: "${{ github.action_ref }}"
   args:
     - --api-key
     - ${{ inputs.api-key }}
