@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: testing my own action
-      uses: ruben12321/Skyline-DataMiner-Deploy-Action@53654b16abb8e8ae9a935a2f886dc5625b4765f3
+      uses: ruben12321/Skyline-DataMiner-Deploy-Action@116a27850e396697ddaaadcf205fa739848ab9be
       with:  
         api-key: 'testing'
         solution-path: './Example/Script.sln'
